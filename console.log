@@ -1,0 +1,37 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v2.6.1)[0;39m
+
+[2m2021-12-20 12:05:07.959[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.a.i.InventoryMgmtServiceApplication   [0;39m [2m:[0;39m Starting InventoryMgmtServiceApplication using Java 17 on Rakesh with PID 11212 (G:\Spring Practice workspace\sms_microservices\inventory-mgmt-service\target\classes started by Rocky in G:\Spring Practice workspace\sms_microservices\inventory-mgmt-service)
+[2m2021-12-20 12:05:07.962[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.a.i.InventoryMgmtServiceApplication   [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2021-12-20 12:05:08.022[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.context.config.ConfigDataLoader   [0;39m [2m:[0;39m Fetching config from server at : http://localhost:8889
+[2m2021-12-20 12:05:08.022[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.context.config.ConfigDataLoader   [0;39m [2m:[0;39m Located environment: name=inventory-mgmt-service, profiles=[default], label=null, version=0ac29597975ac32be47429962dc7301d4aec58f0, state=null
+[2m2021-12-20 12:05:09.258[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2021-12-20 12:05:09.365[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interfaces.
+[2m2021-12-20 12:05:09.686[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.cloud.context.scope.GenericScope    [0;39m [2m:[0;39m BeanFactory id=f3c24397-6680-3914-b7be-8b19500dffb3
+[2m2021-12-20 12:05:10.539[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8081 (http)
+[2m2021-12-20 12:05:10.560[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2021-12-20 12:05:10.561[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.55]
+[2m2021-12-20 12:05:10.940[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2021-12-20 12:05:10.941[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 2918 ms
+[2m2021-12-20 12:05:11.268[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2021-12-20 12:05:12.217[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2021-12-20 12:05:12.439[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2021-12-20 12:05:12.689[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.6.1.Final
+[2m2021-12-20 12:05:13.161[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2021-12-20 12:05:13.509[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2m2021-12-20 12:05:14.645[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2021-12-20 12:05:14.665[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2021-12-20 12:05:15.304[0;39m [33m WARN[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2021-12-20 12:05:17.673[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.cloud.commons.util.InetUtils        [0;39m [2m:[0;39m Cannot determine local hostname
+[2m2021-12-20 12:05:17.906[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8081 (http) with context path ''
+[2m2021-12-20 12:05:19.814[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.cloud.commons.util.InetUtils        [0;39m [2m:[0;39m Cannot determine local hostname
+[2m2021-12-20 12:05:19.825[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.a.i.InventoryMgmtServiceApplication   [0;39m [2m:[0;39m Started InventoryMgmtServiceApplication in 15.136 seconds (JVM running for 16.502)
+[2m2021-12-20 12:12:06.138[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2021-12-20 12:12:06.139[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2021-12-20 12:12:06.140[0;39m [32m INFO[0;39m [35m11212[0;39m [2m---[0;39m [2m[nio-8081-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms

@@ -1,0 +1,6 @@
+server:
+  port: 8889
+spring:
+  cloud:
+    config:
+      server:        git

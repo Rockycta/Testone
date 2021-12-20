@@ -1,0 +1,43 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v2.6.1)[0;39m
+
+[2m2021-12-19 22:25:39.682[0;39m [32m INFO[0;39m [35m7256[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.a.i.InventoryMgmtServiceApplication   [0;39m [2m:[0;39m Starting InventoryMgmtServiceApplication using Java 17 on Rakesh with PID 7256 (G:\Spring Practice workspace\sms_microservices\inventory-mgmt-service\target\classes started by Rocky in G:\Spring Practice workspace\sms_microservices\inventory-mgmt-service)
+[2m2021-12-19 22:25:39.686[0;39m [32m INFO[0;39m [35m7256[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.a.i.InventoryMgmtServiceApplication   [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2021-12-19 22:25:40.969[0;39m [32m INFO[0;39m [35m7256[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2021-12-19 22:25:41.148[0;39m [32m INFO[0;39m [35m7256[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 153 ms. Found 1 JPA repository interfaces.
+[2m2021-12-19 22:25:41.572[0;39m [32m INFO[0;39m [35m7256[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.cloud.context.scope.GenericScope    [0;39m [2m:[0;39m BeanFactory id=0ee36fa8-55b6-346e-a7a5-7d70de672a20
+[2m2021-12-19 22:25:42.266[0;39m [32m INFO[0;39m [35m7256[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8081 (http)
+[2m2021-12-19 22:25:42.277[0;39m [32m INFO[0;39m [35m7256[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2021-12-19 22:25:42.277[0;39m [32m INFO[0;39m [35m7256[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.55]
+[2m2021-12-19 22:25:42.594[0;39m [32m INFO[0;39m [35m7256[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2021-12-19 22:25:42.594[0;39m [32m INFO[0;39m [35m7256[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 2788 ms
+[2m2021-12-19 22:25:42.686[0;39m [33m WARN[0;39m [35m7256[0;39m [2m---[0;39m [2m[           main][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+[2m2021-12-19 22:25:42.690[0;39m [32m INFO[0;39m [35m7256[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Stopping service [Tomcat]
+[2m2021-12-19 22:25:42.716[0;39m [32m INFO[0;39m [35m7256[0;39m [2m---[0;39m [2m[           main][0;39m [36mConditionEvaluationReportLoggingListener[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2m2021-12-19 22:25:42.751[0;39m [31mERROR[0;39m [35m7256[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.d.LoggingFailureAnalysisReporter  [0;39m [2m:[0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
